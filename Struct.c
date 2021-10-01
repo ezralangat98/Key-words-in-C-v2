@@ -2,11 +2,12 @@
 //possibly different types into a single type 
 #include<stdio.h>
   
+//Declaring Struct Employee
 struct Employee
 {
    int empid, age;
 };
-
+//Declaring Struct Adress
 struct Adress
 {
    int address1, address2;
