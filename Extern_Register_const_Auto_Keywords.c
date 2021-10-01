@@ -11,8 +11,9 @@ int main()
 
     //auto is used to declare local variable
     auto int i = 10; 
-    //register stores variable in the register for faster acess
-    register const int *const a = &i; //constant pointer to constant integer
+    //Register stores variable in the register for faster acess
+    //Declaring and initializing constant integer
+    register const int *const a = &i; 
   
     printf("%s,%d %d %d %d", welcome, i, x, y, z);
 }
