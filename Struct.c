@@ -27,9 +27,6 @@ int main()
    empadress[0].address1 = 100;
    empadress[0].address2 = 20;
   
-   
-
-  
    // Accessing members of Employee John
    //Changing the empid of John
    John.empid = 100;
